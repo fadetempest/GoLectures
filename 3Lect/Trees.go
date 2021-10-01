@@ -5,7 +5,6 @@ import (
 	"fmt"
 	)
 
-var wg sync.WaitGroup
 // Walk walks the tree t sending all values
 // from the tree to the channel ch.
 func Walk(t *tree.Tree, ch chan int){
